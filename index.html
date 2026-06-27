@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The LifeTree — Women's Health & Fertility Specialty Hospital in Trichy, India. Expert fertility evaluation, IVF, pregnancy care, PCOS treatment, and more. Book your confidential consultation today." />
+  <meta name="keywords" content="fertility hospital Trichy, IVF Trichy, women's health Trichy, fertility specialist, pregnancy care, PCOS treatment Trichy, The LifeTree hospital" />
+  <meta property="og:title" content="The LifeTree | Women's Health & Fertility Hospital, Trichy" />
+  <meta property="og:description" content="Helping You Begin the Most Beautiful Journey of Life. Expert fertility & pregnancy care in Trichy, India." />
+  <meta property="og:type" content="website" />
+  <title>The LifeTree | Women's Health & Fertility Hospital, Trichy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== STICKY NAV ===== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="The LifeTree Home">
+        <div class="logo-icon" aria-hidden="true">
+          <img src="Images/logo.png" alt="The LifeTree Speaks Logo" class="logo-img" />
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">The LifeTree</span>
+          <span class="logo-tagline">Women's Health & Fertility</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#doctors" class="nav-link">Doctors</a></li>
+        <li><a href="#stories" class="nav-link">Success Stories</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-nav-cta" id="nav-book-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book Appointment
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#doctors" class="mobile-link">Doctors</a></li>
+      <li><a href="#stories" class="mobile-link">Success Stories</a></li>
+      <li><a href="#faq" class="mobile-link">FAQ</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+      <li><a href="#contact" class="btn btn-primary mobile-cta">Book Appointment</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero" aria-label="Hero section">
+      <div class="hero-bg-orb hero-orb-1" aria-hidden="true"></div>
+      <div class="hero-bg-orb hero-orb-2" aria-hidden="true"></div>
+      <div class="hero-bg-orb hero-orb-3" aria-hidden="true"></div>
+      <div class="hero-container">
+        <div class="hero-content animate-fade-up">
+          <div class="hero-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            Trichy's Most Trusted Fertility Centre
+          </div>
+          <h1 class="hero-headline">
+            Helping You Begin the<br/>
+            <em>Most Beautiful Journey</em><br/>
+            of Life
+          </h1>
+          <p class="hero-subtext">
+            Expert women's health, fertility evaluation, and compassionate pregnancy care — all under one roof, in the heart of Trichy.
+          </p>
+          <div class="hero-ctas">
+            <a href="#contact" class="btn btn-primary btn-lg" id="hero-book-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Book Appointment
+            </a>
+            <a href="https://wa.me/919999999999" class="btn btn-whatsapp btn-lg" id="hero-whatsapp-btn" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp Us
+            </a>
+          </div>
+          <div class="trust-badges" role="list" aria-label="Trust indicators">
+            <div class="trust-badge" role="listitem">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Privacy Assured
+            </div>
+            <div class="trust-badge" role="listitem">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 10-16 0"/></svg>
+              Expert Specialists
+            </div>
+            <div class="trust-badge" role="listitem">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              Advanced Fertility Care
+            </div>
+            <div class="trust-badge" role="listitem">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+              Affordable Packages
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual animate-fade-in">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-glow" aria-hidden="true"></div>
+            <img src="assets/hero_couple.png" alt="Happy expecting couple celebrating their pregnancy journey at The LifeTree" class="hero-image" loading="eager" />
+            <div class="hero-floating-card card-stats" aria-label="5000+ happy families">
+              <div class="floating-card-icon" aria-hidden="true">🌿</div>
+              <div>
+                <div class="floating-num">5000+</div>
+                <div class="floating-label">Happy Families</div>
+              </div>
+            </div>
+            <div class="hero-floating-card card-rating" aria-label="4.9 star Google rating">
+              <div class="star-row" aria-hidden="true">★★★★★</div>
+              <div class="floating-label">Google Rating</div>
+              <div class="floating-num">4.9 / 5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats-section" id="stats" aria-label="Key statistics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item" data-target="5000" data-suffix="+">
+            <div class="stat-number" id="stat-families">0+</div>
+            <div class="stat-label">Happy Families</div>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item" data-target="15" data-suffix="+">
+            <div class="stat-number" id="stat-years">0+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item" data-target="98" data-suffix="%">
+            <div class="stat-number" id="stat-satisfaction">0%</div>
+            <div class="stat-label">Patient Satisfaction</div>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item" data-target="10000" data-suffix="+">
+            <div class="stat-number" id="stat-consultations">0+</div>
+            <div class="stat-label">Consultations</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why-section" id="about" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-tag">Why Choose Us</div>
+          <h2 class="section-title" id="why-heading">The LifeTree Difference</h2>
+          <p class="section-subtitle">We combine cutting-edge medical expertise with genuine compassion — because your fertility journey deserves nothing less than the best.</p>
+        </div>
+        <div class="why-grid">
+          <div class="why-card animate-on-scroll" tabindex="0">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3>Complete Fertility Screening</h3>
+            <p>Comprehensive diagnostics covering all aspects of fertility for both partners — from hormonal panels to advanced imaging.</p>
+          </div>
+          <div class="why-card animate-on-scroll" tabindex="0">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <h3>Women & Men's Fertility Care</h3>
+            <p>Dedicated specialists for both female and male fertility, providing holistic couples-based treatment plans.</p>
+          </div>
+          <div class="why-card animate-on-scroll" tabindex="0">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </div>
+            <h3>Personalized Pregnancy Care</h3>
+            <p>Custom care plans tailored to each mother's unique needs, from the first trimester through a safe delivery.</p>
+          </div>
+          <div class="why-card animate-on-scroll" tabindex="0">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            </div>
+            <h3>Affordable Treatment</h3>
+            <p>Transparent pricing and flexible packages ensuring world-class fertility care is accessible to every family.</p>
+          </div>
+          <div class="why-card animate-on-scroll" tabindex="0">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Confidential Consultations</h3>
+            <p>Your privacy is our priority. All consultations and records are kept completely confidential and secure.</p>
+          </div>
+          <div class="why-card animate-on-scroll" tabindex="0">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/></svg>
+            </div>
+            <h3>Modern Medical Technology</h3>
+            <p>State-of-the-art equipment including advanced ultrasound, hormonal labs, and endoscopic facilities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services-section" id="services" aria-labelledby="services-heading">
+      <div class="services-bg-pattern" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-tag">Our Specialties</div>
+          <h2 class="section-title" id="services-heading">Comprehensive Care for Every Stage</h2>
+          <p class="section-subtitle">From fertility evaluation to postpartum support — we're with you through every step of your journey.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a6 6 0 0112 0v2"/><path d="M12 12v8"/></svg>
+            </div>
+            <h3>Female Fertility Evaluation</h3>
+            <p>Complete hormonal, structural, and ovarian reserve assessment</p>
+            <span class="service-tag">Fertility</span>
+          </div>
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg>
+            </div>
+            <h3>Male Fertility Evaluation</h3>
+            <p>Semen analysis, hormonal testing & andrology consultation</p>
+            <span class="service-tag">Fertility</span>
+          </div>
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </div>
+            <h3>Pregnancy Care</h3>
+            <p>Antenatal monitoring, nutrition & wellness guidance</p>
+            <span class="service-tag">Maternity</span>
+          </div>
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3>High-Risk Pregnancy</h3>
+            <p>Specialized monitoring for complex and high-risk pregnancies</p>
+            <span class="service-tag">Maternity</span>
+          </div>
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg>
+            </div>
+            <h3>PCOS Treatment</h3>
+            <p>Evidence-based management of Polycystic Ovary Syndrome</p>
+            <span class="service-tag">Women's Health</span>
+          </div>
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <h3>Period Disorders</h3>
+            <p>Treatment for irregular, painful & heavy menstrual cycles</p>
+            <span class="service-tag">Women's Health</span>
+          </div>
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3>Hormonal Assessment</h3>
+            <p>Comprehensive endocrine profiling and treatment</p>
+            <span class="service-tag">Diagnostics</span>
+          </div>
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+            </div>
+            <h3>Puberty Clinic</h3>
+            <p>Guidance and medical support for adolescent health concerns</p>
+            <span class="service-tag">Adolescent</span>
+          </div>
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            </div>
+            <h3>Breastfeeding Support</h3>
+            <p>Lactation consulting and postnatal care for new mothers</p>
+            <span class="service-tag">Postnatal</span>
+          </div>
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <h3>Pregnancy Classes</h3>
+            <p>Lamaze, birth preparation, and parenting workshops</p>
+            <span class="service-tag">Education</span>
+          </div>
+          <div class="service-card animate-on-scroll" tabindex="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <h3>Health Workshops</h3>
+            <p>Community wellness programs on fertility, nutrition & lifestyle</p>
+            <span class="service-tag">Wellness</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DOCTORS ===== -->
+    <section class="doctors-section" id="doctors" aria-labelledby="doctors-heading">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-tag">Our Team</div>
+          <h2 class="section-title" id="doctors-heading">Meet Our Expert Doctors</h2>
+          <p class="section-subtitle">A multidisciplinary team of specialists dedicated to your fertility and women's health journey.</p>
+        </div>
+        <div class="doctors-grid">
+          <div class="doctor-card animate-on-scroll" tabindex="0">
+            <div class="doctor-image-wrap">
+              <img src="assets/doctor_female.png" alt="Dr. Priya Raghunathan, Senior Fertility Specialist" class="doctor-image" loading="lazy" />
+              <div class="doctor-badge-avail" aria-label="Available today">Available Today</div>
+            </div>
+            <div class="doctor-info">
+              <div class="doctor-specialty-tag">Fertility & Gynecology</div>
+              <h3 class="doctor-name">Dr. Priya Raghunathan</h3>
+              <p class="doctor-qual">MBBS, MD (OBG), DRM, FRCOG</p>
+              <p class="doctor-exp">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                18+ Years Experience
+              </p>
+              <p class="doctor-desc">Specializes in IVF, reproductive endocrinology, and high-risk pregnancies with a patient-first approach.</p>
+              <a href="#contact" class="btn btn-outline btn-sm" aria-label="Book appointment with Dr. Priya Raghunathan">Book Consultation</a>
+            </div>
+          </div>
+          <div class="doctor-card animate-on-scroll featured-doctor" tabindex="0">
+            <div class="doctor-image-wrap">
+              <img src="assets/doctor_male.png" alt="Dr. Ramesh Kumar, Andrology & Male Fertility Specialist" class="doctor-image" loading="lazy" />
+              <div class="doctor-badge-avail" aria-label="Available today">Available Today</div>
+            </div>
+            <div class="doctor-info">
+              <div class="doctor-specialty-tag">Male Fertility & Andrology</div>
+              <h3 class="doctor-name">Dr. Ramesh Kumar</h3>
+              <p class="doctor-qual">MBBS, MS (Urology), DNB, Fellowship Andrology</p>
+              <p class="doctor-exp">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                15+ Years Experience
+              </p>
+              <p class="doctor-desc">Leading authority in male infertility, azoospermia treatment, and advanced sperm retrieval techniques.</p>
+              <a href="#contact" class="btn btn-outline btn-sm" aria-label="Book appointment with Dr. Ramesh Kumar">Book Consultation</a>
+            </div>
+          </div>
+          <div class="doctor-card animate-on-scroll" tabindex="0">
+            <div class="doctor-image-wrap">
+              <img src="assets/doctor_female.png" alt="Dr. Lakshmi Subramanian, Maternal-Fetal Medicine Specialist" class="doctor-image" loading="lazy" />
+              <div class="doctor-badge-avail" aria-label="Available today">Available Today</div>
+            </div>
+            <div class="doctor-info">
+              <div class="doctor-specialty-tag">Maternal-Fetal Medicine</div>
+              <h3 class="doctor-name">Dr. Lakshmi Subramanian</h3>
+              <p class="doctor-qual">MBBS, MD (OBG), Fellowship MFM</p>
+              <p class="doctor-exp">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                12+ Years Experience
+              </p>
+              <p class="doctor-desc">Renowned for high-risk pregnancy management, fetal anomaly scanning, and prenatal counselling.</p>
+              <a href="#contact" class="btn btn-outline btn-sm" aria-label="Book appointment with Dr. Lakshmi Subramanian">Book Consultation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TREATMENT JOURNEY ===== -->
+    <section class="journey-section" id="journey" aria-labelledby="journey-heading">
+      <div class="journey-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-tag">Your Path</div>
+          <h2 class="section-title" id="journey-heading">Your Treatment Journey</h2>
+          <p class="section-subtitle">A clear, compassionate roadmap — every step guided by our expert team.</p>
+        </div>
+        <div class="journey-timeline" role="list" aria-label="Treatment journey steps">
+          <div class="journey-step animate-on-scroll" role="listitem">
+            <div class="journey-number" aria-hidden="true">01</div>
+            <div class="journey-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <h3>Consultation</h3>
+            <p>Private, compassionate first meeting to understand your history and goals.</p>
+          </div>
+          <div class="journey-connector" aria-hidden="true"></div>
+          <div class="journey-step animate-on-scroll" role="listitem">
+            <div class="journey-number" aria-hidden="true">02</div>
+            <div class="journey-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+            </div>
+            <h3>Diagnosis</h3>
+            <p>Thorough medical history review and preliminary evaluation.</p>
+          </div>
+          <div class="journey-connector" aria-hidden="true"></div>
+          <div class="journey-step animate-on-scroll" role="listitem">
+            <div class="journey-number" aria-hidden="true">03</div>
+            <div class="journey-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3>Fertility Screening</h3>
+            <p>Advanced lab tests, ultrasound, and semen analysis as appropriate.</p>
+          </div>
+          <div class="journey-connector" aria-hidden="true"></div>
+          <div class="journey-step animate-on-scroll" role="listitem">
+            <div class="journey-number" aria-hidden="true">04</div>
+            <div class="journey-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3"/></svg>
+            </div>
+            <h3>Personalized Treatment</h3>
+            <p>Tailored plan — medication, IUI, IVF, or natural support programs.</p>
+          </div>
+          <div class="journey-connector" aria-hidden="true"></div>
+          <div class="journey-step animate-on-scroll" role="listitem">
+            <div class="journey-number" aria-hidden="true">05</div>
+            <div class="journey-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </div>
+            <h3>Pregnancy Care</h3>
+            <p>Close antenatal monitoring, scans, and emotional wellness support.</p>
+          </div>
+          <div class="journey-connector" aria-hidden="true"></div>
+          <div class="journey-step animate-on-scroll" role="listitem">
+            <div class="journey-number" aria-hidden="true">06</div>
+            <div class="journey-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            </div>
+            <h3>Delivery & Beyond</h3>
+            <p>Safe delivery support with postnatal care and lactation guidance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SUCCESS STORIES ===== -->
+    <section class="stories-section" id="stories" aria-labelledby="stories-heading">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-tag">Testimonials</div>
+          <h2 class="section-title" id="stories-heading">Families We've Helped</h2>
+          <p class="section-subtitle">Real journeys, real joy. Every story here is a life we've been privileged to be part of.</p>
+        </div>
+
+        <div class="google-rating-bar animate-on-scroll" aria-label="Google rating: 4.9 out of 5 from 820+ reviews">
+          <div class="google-logo" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+          <div class="google-stars" aria-hidden="true">★★★★★</div>
+          <div class="google-score"><strong>4.9</strong> / 5</div>
+          <div class="google-count">820+ Reviews</div>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card animate-on-scroll" tabindex="0">
+            <div class="testimonial-image-wrap">
+              <img src="assets/success_family.png" alt="Happy family - Preethi and Vijay with their newborn" class="testimonial-image" loading="lazy" />
+              <div class="testimonial-play-badge" aria-hidden="true">▶ Watch Story</div>
+            </div>
+            <div class="testimonial-content">
+              <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+              <blockquote>
+                "After three years of waiting and tears, Dr. Priya and the entire LifeTree team gave us our miracle. We cannot thank them enough for their patience and care."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">PV</div>
+                <div>
+                  <div class="author-name">Preethi & Vijay</div>
+                  <div class="author-detail">IVF Success · Trichy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card animate-on-scroll" tabindex="0">
+            <div class="testimonial-content big-testimonial">
+              <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+              <blockquote>
+                "The team at LifeTree treats you like family. They explained every step, never rushed us, and celebrated with us at every milestone. My PCOS was managed beautifully and I had a natural conception!"
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar blue-av" aria-hidden="true">AK</div>
+                <div>
+                  <div class="author-name">Anitha & Karthik</div>
+                  <div class="author-detail">PCOS Treatment · Chennai, treated in Trichy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card animate-on-scroll" tabindex="0">
+            <div class="testimonial-content big-testimonial">
+              <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+              <blockquote>
+                "I was diagnosed with a high-risk pregnancy and was terrified. Dr. Lakshmi gave me confidence and monitored me closely. My daughter was born perfectly healthy at full term."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar green-av" aria-hidden="true">SR</div>
+                <div>
+                  <div class="author-name">Sangeetha Rajan</div>
+                  <div class="author-detail">High-Risk Pregnancy · Trichy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card animate-on-scroll" tabindex="0">
+            <div class="testimonial-content big-testimonial">
+              <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+              <blockquote>
+                "As a couple, we were both evaluated together which made us feel included and heard. The affordable packages meant we didn't have to compromise on quality. Our twins are proof of that!"
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar gold-av" aria-hidden="true">MN</div>
+                <div>
+                  <div class="author-name">Meera & Naveen</div>
+                  <div class="author-detail">Couples Fertility · Thanjavur</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="faq-section" id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-tag">FAQ</div>
+          <h2 class="section-title" id="faq-heading">Common Questions</h2>
+          <p class="section-subtitle">We believe informed patients make empowered decisions. Here are answers to the most frequent questions we receive.</p>
+        </div>
+        <div class="faq-list" role="list">
+          <div class="faq-item animate-on-scroll" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">
+              When should a couple visit a fertility specialist?
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1">
+              <p>If you are under 35 and have been trying to conceive for 12 months without success (or 6 months if over 35), it is advisable to consult a fertility specialist. However, if you have known conditions like PCOS, endometriosis, or irregular periods, early consultation is always recommended.</p>
+            </div>
+          </div>
+          <div class="faq-item animate-on-scroll" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+              Is fertility treatment painful or invasive?
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2">
+              <p>Most initial fertility evaluations are non-invasive, involving blood tests and ultrasound scans. Treatments like IUI are minimally invasive and nearly painless. IVF involves injections and a minor egg retrieval procedure, which is done under light sedation. Our team ensures maximum comfort throughout.</p>
+            </div>
+          </div>
+          <div class="faq-item animate-on-scroll" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+              How long does a fertility treatment cycle typically take?
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a3" role="region" aria-labelledby="faq-q3">
+              <p>An initial evaluation typically takes 1-2 weeks. A standard IUI cycle is 2-3 weeks, while an IVF cycle from stimulation to embryo transfer takes approximately 4-6 weeks. Your personalized timeline will be clearly communicated at your first consultation.</p>
+            </div>
+          </div>
+          <div class="faq-item animate-on-scroll" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+              Is my consultation completely confidential?
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a4" role="region" aria-labelledby="faq-q4">
+              <p>Absolutely. All consultations, test results, and treatment details are strictly confidential. We adhere to the highest standards of medical privacy, and your information is never shared without your explicit consent. You may also choose to consult under a preferred name for additional privacy.</p>
+            </div>
+          </div>
+          <div class="faq-item animate-on-scroll" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">
+              What is the success rate for IVF at The LifeTree?
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a5" role="region" aria-labelledby="faq-q5">
+              <p>Our IVF success rates are among the highest in the region, consistently exceeding national averages. Success rates vary by age, diagnosis, and individual circumstances. During your consultation, we will give you a personalized probability assessment based on your specific situation.</p>
+            </div>
+          </div>
+          <div class="faq-item animate-on-scroll" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">
+              Do you offer male fertility evaluation?
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a6" role="region" aria-labelledby="faq-q6">
+              <p>Yes. Male factor infertility accounts for 40–50% of all infertility cases. We have a dedicated andrology department offering comprehensive semen analysis, hormonal testing, genetic testing, and advanced treatments like TESA/PESA for azoospermia. Both partners are evaluated together for the best outcomes.</p>
+            </div>
+          </div>
+          <div class="faq-item animate-on-scroll" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a7" id="faq-q7">
+              Are your treatment packages affordable?
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" id="faq-a7" role="region" aria-labelledby="faq-q7">
+              <p>We believe world-class fertility care should be accessible. We offer transparent, all-inclusive pricing with no hidden fees. Flexible EMI options and insurance coordination are available. We also have special packages for multiple cycles to maximize your chances while managing costs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="contact-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-tag">Get In Touch</div>
+          <h2 class="section-title" id="contact-heading">Begin Your Journey Today</h2>
+          <p class="section-subtitle">Take the first step. Our team will reach out within 24 hours to confirm your appointment.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-form-wrap animate-on-scroll">
+            <form class="appointment-form" id="appointment-form" novalidate aria-label="Book appointment form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name *</label>
+                  <input type="text" id="name" name="name" placeholder="e.g. Priya Sharma" required autocomplete="name" />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Mobile Number *</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required autocomplete="tel" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="you@email.com" autocomplete="email" />
+                </div>
+                <div class="form-group">
+                  <label for="service">Service Interested In</label>
+                  <select id="service" name="service">
+                    <option value="">Select a Service</option>
+                    <option value="female-fertility">Female Fertility Evaluation</option>
+                    <option value="male-fertility">Male Fertility Evaluation</option>
+                    <option value="ivf">IVF / ART</option>
+                    <option value="pregnancy">Pregnancy Care</option>
+                    <option value="high-risk">High-Risk Pregnancy</option>
+                    <option value="pcos">PCOS Treatment</option>
+                    <option value="period">Period Disorders</option>
+                    <option value="hormonal">Hormonal Assessment</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message (Optional)</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tell us briefly about your situation or any questions you have..."></textarea>
+              </div>
+              <div class="form-privacy">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Your information is 100% private and confidential. We never share your data.
+              </div>
+              <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Request Appointment
+              </button>
+              <div class="form-success" id="form-success" role="alert" aria-live="polite" hidden>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Thank you! We'll contact you within 24 hours to confirm your appointment.
+              </div>
+            </form>
+          </div>
+          <div class="contact-info animate-on-scroll">
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Phone</div>
+                  <a href="tel:+914312345678" class="contact-value">+91 431 234 5678</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon whatsapp-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">WhatsApp</div>
+                  <a href="https://wa.me/919999999999" class="contact-value" target="_blank" rel="noopener noreferrer">+91 99999 99999</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Email</div>
+                  <a href="mailto:care@thelifetree.in" class="contact-value">care@thelifetree.in</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Address</div>
+                  <div class="contact-value">123, Palpannai Main Road,<br/>Trichy – 620 001, Tamil Nadu, India</div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Working Hours</div>
+                  <div class="contact-value">Mon – Sat: 8:00 AM – 8:00 PM<br/>Sunday: 9:00 AM – 1:00 PM</div>
+                </div>
+              </div>
+            </div>
+            <div class="map-embed" aria-label="Hospital location map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125282.09898637578!2d78.62697!3d10.79027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf5f4a5c8d9c9%3A0x5d8e9c3e2f1b4a5c!2sTrichy%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+                width="100%"
+                height="220"
+                style="border:0; border-radius:16px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="The LifeTree Hospital Location, Trichy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="logo-icon" aria-hidden="true">
+              <img src="Images/logo.jpg" alt="The LifeTree Speaks Logo" class="logo-img footer-logo-img" />
+            </div>
+            <span class="footer-logo-name">The LifeTree</span>
+          </div>
+          <p class="footer-tagline">Women's Health & Fertility Specialty Hospital, Trichy</p>
+          <p class="footer-about">Compassionate, expert care for your fertility and pregnancy journey — helping families bloom since 2009.</p>
+          <div class="footer-socials" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/919999999999" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="https://youtube.com" class="social-link" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-1.96C18.88 4 12 4 12 4s-6.88 0-8.6.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.4 19.54C5.12 20 12 20 12 20s6.88 0 8.6-.46a2.78 2.78 0 001.94-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon fill="white" points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Female Fertility Evaluation</a></li>
+            <li><a href="#services">Male Fertility Evaluation</a></li>
+            <li><a href="#services">IVF & ART</a></li>
+            <li><a href="#services">Pregnancy Care</a></li>
+            <li><a href="#services">High-Risk Pregnancy</a></li>
+            <li><a href="#services">PCOS Treatment</a></li>
+            <li><a href="#services">Hormonal Assessment</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#doctors">Our Doctors</a></li>
+            <li><a href="#stories">Success Stories</a></li>
+            <li><a href="#journey">Treatment Journey</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact</h4>
+          <div class="footer-contact-info">
+            <p>123, Palpannai Main Road,<br/>Trichy – 620 001, Tamil Nadu</p>
+            <a href="tel:+914312345678">+91 431 234 5678</a>
+            <a href="mailto:care@thelifetree.in">care@thelifetree.in</a>
+            <p>Mon–Sat: 8 AM – 8 PM<br/>Sun: 9 AM – 1 PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 The LifeTree Women's Health & Fertility Hospital. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING ACTION BUTTONS ===== -->
+  <div class="floating-actions" role="region" aria-label="Quick contact options">
+    <a href="https://wa.me/919999999999" class="fab fab-whatsapp" id="fab-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span class="fab-label">WhatsApp</span>
+    </a>
+    <a href="tel:+914312345678" class="fab fab-call" id="fab-call" aria-label="Call Now">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+      <span class="fab-label">Call Now</span>
+    </a>
+    <a href="#contact" class="fab fab-book" id="fab-book" aria-label="Book Appointment">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      <span class="fab-label">Book Now</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
