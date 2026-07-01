@@ -233,10 +233,11 @@ ul { list-style: none; }
   gap: 10px;
 }
 .lp-logo-img {
-  width: 42px;
-  height: 42px;
+  height: 48px;
+  width: auto;
+  max-width: 210px;
   object-fit: contain;
-  border-radius: 50%;
+  border-radius: 0;
 }
 .lp-logo-text {
   display: flex;
@@ -1309,13 +1310,16 @@ ul { list-style: none; }
 
 .lp-footer-brand {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 12px;
+  text-align: center;
 }
 .lp-footer-logo-img {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+  height: 64px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 0;
   object-fit: contain;
 }
 .lp-footer-brand strong { color: #fff; }
